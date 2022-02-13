@@ -38,6 +38,7 @@ body {
   margin: 0;
 }
 
+/* 2-column mode for wide viewports */
 @media (min-width: 600px) {
   .about-me {
     display: flex;
@@ -45,6 +46,8 @@ body {
     justify-content: flex-start;
   }
 }
+
+/* 1-column mode for thin mobile devices */
 @media not (min-width: 600px) {
   .about-me h1,
   .about-me h2 {
