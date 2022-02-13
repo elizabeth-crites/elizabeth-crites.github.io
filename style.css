@@ -1,0 +1,28 @@
+/* unvisited link */
+a:link {
+  color: #095484;
+}
+
+/* visited link */
+a:visited {
+  color: #095484;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8ebf42;
+}
+
+/* selected link */
+a:active {
+  color: #800000;
+}
+
+body {
+  max-width: 90%;
+  margin: 0 auto !important;
+  float: none !important;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Avenir Light", Avenir, "Avenir Next", arial, sans-serif;
+}
