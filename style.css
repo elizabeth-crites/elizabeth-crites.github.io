@@ -1,0 +1,61 @@
+* {
+  font-family: "Avenir Light", Avenir, "Avenir Next", arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* unvisited link */
+a:link {
+  color: #095484;
+}
+
+/* visited link */
+a:visited {
+  color: #095484;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8ebf42;
+}
+
+/* selected link */
+a:active {
+  color: #800000;
+}
+
+body {
+  max-width: 90%;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.about-me * {
+  margin: 0.5rem;
+}
+
+.about-me br {
+  margin: 0;
+}
+
+/* 2-column mode for wide viewports */
+@media (min-width: 600px) {
+  .about-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+/* 1-column mode for thin mobile devices */
+@media not (min-width: 600px) {
+  .about-me h1,
+  .about-me h2 {
+    text-align: center;
+  }
+  .profile-img * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
