@@ -1,4 +1,4 @@
-## Liz's homepage
+## Personal webpage
 
 To format code:
 ```
