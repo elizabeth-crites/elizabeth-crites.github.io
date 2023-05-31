@@ -59,3 +59,28 @@ body {
     margin-right: auto;
   }
 }
+
+.bold a {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* unvisited link */
+.bold a:link {
+  color: #095484;
+}
+
+/* visited link */
+.bold a:visited {
+  color: #095484;
+}
+
+/* mouse over link */
+.bold a:hover {
+  color: #8ebf42;
+}
+
+/* selected link */
+.bold a:active {
+  color: #800000;
+}
